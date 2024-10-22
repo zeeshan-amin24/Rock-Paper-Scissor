@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock,Paper,Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center;color: white;margin-bottom: 20px;">Rock, Paper, Scissors Game</h1>
+    <div class="container">
+      <button onclick="uchoice('Scissor')" class="hands">✌️</button>
+
+      <button onclick="uchoice('Rock')" class="hands">✊</button>
+      <button onclick="uchoice('Paper')" class="hands">✋</button>
+    </div>
+    <p style="color: white;font-weight: 900;font-family: poppins;text-align: center;margin-top: 25px;font-size: large;" id="result"></p>
+    <p style="color: white;font-weight: 900;text-align: center;margin-top: 10px;" id="wins"></p>
+    <div class="btn-container">
+    <button class="hide reset-btn" id="reset">Reset Score</button>
+    <button class="show-btn" id="show">Show Score</button>
+    <button class="autoplay-btn" id="autoplay">Auto Play</button>
+  </div>
+    <footer ><h5 style="color: white;text-align: center;margin-top: 50px;font-size: x-small;">Made With 🤍 By Zeeshan Amin & Luo Shenshi</h5></footer>
+    <script  src="main.js">
+    </script>
+  </body>
+</html>
